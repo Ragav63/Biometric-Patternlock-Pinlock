@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutBiometric"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <Button
+        android:id="@+id/btnBiometric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Authenticate with Biometrics" />
+
+    <Button
+        android:id="@+id/btnPin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use PIN Instead"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnPattern"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use Pattern Instead"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textBiometricStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status will appear here"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
